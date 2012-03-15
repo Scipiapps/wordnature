@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RecipesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		283EA3640DEE388300DBD352 /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 283EA3630DEE388300DBD352 /* RecipeTableViewCell.m */; };
+		28B35EC40FC5DCD100ED0C40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B35EC30FC5DCD100ED0C40 /* CoreData.framework */; };
+		28B35EC60FC5DCD100ED0C40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B35EC50FC5DCD100ED0C40 /* CoreGraphics.framework */; };
+		28B35EC80FC5DCD100ED0C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B35EC70FC5DCD100ED0C40 /* Foundation.framework */; };
+		28B35FB70FC5E10C00ED0C40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B35EC90FC5DCD100ED0C40 /* UIKit.framework */; };
+		28D3D9AD0FC33C27000F9EF1 /* Recipes.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28D3D9AC0FC33C27000F9EF1 /* Recipes.xcdatamodel */; };
+		28FCBE7A0DE69516007A15C7 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FCBE790DE69516007A15C7 /* Recipe.m */; };
+		28FCBF0C0DE6A6C6007A15C7 /* RecipeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FCBF0B0DE6A6C6007A15C7 /* RecipeListTableViewController.m */; };
+		539FF19C11D41CB200EFF5ED /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 539FF19511D41CB200EFF5ED /* Icon-72.png */; };
+		539FF19D11D41CB200EFF5ED /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 539FF19611D41CB200EFF5ED /* Icon-Small-50.png */; };
+		539FF19E11D41CB200EFF5ED /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 539FF19711D41CB200EFF5ED /* Icon-Small.png */; };
+		539FF19F11D41CB200EFF5ED /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 539FF19811D41CB200EFF5ED /* Icon-Small@2x.png */; };
+		539FF1A111D41CB200EFF5ED /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 539FF19A11D41CB200EFF5ED /* Icon@2x.png */; };
+		539FF1A211D41CB200EFF5ED /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 539FF19B11D41CB200EFF5ED /* iTunesArtwork */; };
+		53CE978611C6E99200594C94 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CE978411C6E99200594C94 /* MainWindow.xib */; };
+		53CE97A011C6EA1000594C94 /* choosePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979C11C6EA1000594C94 /* choosePhoto.png */; };
+		53CE97A111C6EA1000594C94 /* convert.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979D11C6EA1000594C94 /* convert.png */; };
+		53CE97A211C6EA1000594C94 /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979E11C6EA1000594C94 /* fork.png */; };
+		990FB4CC1335F52A00A3CA71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 990FB4CB1335F52A00A3CA71 /* Default.png */; };
+		990FB54A1335F7FC00A3CA71 /* CardDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990FB5491335F7FC00A3CA71 /* CardDetailView.m */; };
+		990FB824133627E400A3CA71 /* Platform_textView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990FB823133627E400A3CA71 /* Platform_textView.m */; };
+		9912BB261340DDC700DFD430 /* RecipeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912BB251340DDC700DFD430 /* RecipeType.m */; };
+		996CFAD6136DB596004C2F26 /* Platform_pListWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 996CFAD5136DB596004C2F26 /* Platform_pListWrapper.m */; };
+		99A1036D1390F92100BCA841 /* Custom_UIToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A1036C1390F92100BCA841 /* Custom_UIToolbar.m */; };
+		99A103A8139222B800BCA841 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A103A7139222B800BCA841 /* Icon.png */; };
+		99B39DFD1340C1CB00B98885 /* NoteSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B39DFB1340C1CB00B98885 /* NoteSelector.m */; };
+		99B39DFE1340C1CB00B98885 /* NoteSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99B39DFC1340C1CB00B98885 /* NoteSelector.xib */; };
+		99B6FDEE135153570047A0B2 /* notes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99B6FDED135153570047A0B2 /* notes.plist */; };
+		99C4DC5013531D28001A3B47 /* NoteSelectorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4DC4F13531D28001A3B47 /* NoteSelectorTableViewCell.m */; };
+		99C65A67137F78AF003E81EE /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C65A65137F78AF003E81EE /* SettingView.m */; };
+		99C65A68137F78AF003E81EE /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C65A66137F78AF003E81EE /* SettingView.xib */; };
+		99CE7E93133F30370061D02B /* googleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CE7E92133F30370061D02B /* googleAPI.m */; };
+		99DEF25713236CB5005DFD21 /* Recipes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 99DEF25613236CB5005DFD21 /* Recipes.sqlite */; };
+		99DEF4611323BE74005DFD21 /* Solid_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 99DEF4601323BE74005DFD21 /* Solid_256.png */; };
+		99DEF4661323BF72005DFD21 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DEF4641323BF72005DFD21 /* CardViewController.m */; };
+		99DEF4671323BF72005DFD21 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99DEF4651323BF72005DFD21 /* CardViewController.xib */; };
+		99DEF4FA1324F471005DFD21 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DEF4F81324F471005DFD21 /* CardView.m */; };
+		99E069931332125700597FCF /* DetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99E069921332125700597FCF /* DetailHeaderView.xib */; };
+		99E06A0A133219E900597FCF /* Platform_tabWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E06A09133219E900597FCF /* Platform_tabWrapper.m */; };
+		99E06A7E13321FB000597FCF /* Platform_navWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E06A7D13321FB000597FCF /* Platform_navWrapper.m */; };
+		99E06C5413324F3400597FCF /* Platform_tabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E06C5313324F3400597FCF /* Platform_tabController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* RecipesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesAppDelegate.h; path = Classes/RecipesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RecipesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesAppDelegate.m; path = Classes/RecipesAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* WordNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283EA3620DEE388300DBD352 /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewCell.h; sourceTree = "<group>"; };
+		283EA3630DEE388300DBD352 /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewCell.m; sourceTree = "<group>"; };
+		28B35EC30FC5DCD100ED0C40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28B35EC50FC5DCD100ED0C40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28B35EC70FC5DCD100ED0C40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28B35EC90FC5DCD100ED0C40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28D3D9AC0FC33C27000F9EF1 /* Recipes.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Recipes.xcdatamodel; sourceTree = "<group>"; };
+		28FCBE780DE69516007A15C7 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipe.h; path = Classes/Recipe.h; sourceTree = "<group>"; };
+		28FCBE790DE69516007A15C7 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipe.m; path = Classes/Recipe.m; sourceTree = "<group>"; };
+		28FCBF0A0DE6A6C6007A15C7 /* RecipeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListTableViewController.h; sourceTree = "<group>"; };
+		28FCBF0B0DE6A6C6007A15C7 /* RecipeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListTableViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* WordNote_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordNote_Prefix.pch; sourceTree = "<group>"; };
+		539FF19511D41CB200EFF5ED /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "images/Icon-72.png"; sourceTree = "<group>"; };
+		539FF19611D41CB200EFF5ED /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		539FF19711D41CB200EFF5ED /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "images/Icon-Small.png"; sourceTree = "<group>"; };
+		539FF19811D41CB200EFF5ED /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		539FF19A11D41CB200EFF5ED /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
+		539FF19B11D41CB200EFF5ED /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = images/iTunesArtwork; sourceTree = "<group>"; };
+		53CE978511C6E99200594C94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		53CE979C11C6EA1000594C94 /* choosePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choosePhoto.png; path = images/choosePhoto.png; sourceTree = "<group>"; };
+		53CE979D11C6EA1000594C94 /* convert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = convert.png; path = images/convert.png; sourceTree = "<group>"; };
+		53CE979E11C6EA1000594C94 /* fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fork.png; path = images/fork.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990FB4CB1335F52A00A3CA71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		990FB5481335F7FC00A3CA71 /* CardDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailView.h; sourceTree = "<group>"; };
+		990FB5491335F7FC00A3CA71 /* CardDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailView.m; sourceTree = "<group>"; };
+		990FB822133627E400A3CA71 /* Platform_textView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform_textView.h; sourceTree = "<group>"; };
+		990FB823133627E400A3CA71 /* Platform_textView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform_textView.m; sourceTree = "<group>"; };
+		9912BB241340DDC700DFD430 /* RecipeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeType.h; sourceTree = "<group>"; };
+		9912BB251340DDC700DFD430 /* RecipeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeType.m; sourceTree = "<group>"; };
+		996CFAD5136DB596004C2F26 /* Platform_pListWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform_pListWrapper.m; sourceTree = "<group>"; };
+		996CFAD7136DB5A7004C2F26 /* Platform_pListWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform_pListWrapper.h; sourceTree = "<group>"; };
+		99A1036B1390F92100BCA841 /* Custom_UIToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Custom_UIToolbar.h; sourceTree = "<group>"; };
+		99A1036C1390F92100BCA841 /* Custom_UIToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Custom_UIToolbar.m; sourceTree = "<group>"; };
+		99A103A7139222B800BCA841 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		99B39DFA1340C1CB00B98885 /* NoteSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSelector.h; sourceTree = "<group>"; };
+		99B39DFB1340C1CB00B98885 /* NoteSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSelector.m; sourceTree = "<group>"; };
+		99B39DFC1340C1CB00B98885 /* NoteSelector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteSelector.xib; sourceTree = "<group>"; };
+		99B6FDED135153570047A0B2 /* notes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = notes.plist; sourceTree = "<group>"; };
+		99C4DC4E13531D28001A3B47 /* NoteSelectorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSelectorTableViewCell.h; sourceTree = "<group>"; };
+		99C4DC4F13531D28001A3B47 /* NoteSelectorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSelectorTableViewCell.m; sourceTree = "<group>"; };
+		99C5E6A71363E95600F3FB93 /* zedoul_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zedoul_common.h; sourceTree = "<group>"; };
+		99C65A64137F78AF003E81EE /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		99C65A65137F78AF003E81EE /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		99C65A66137F78AF003E81EE /* SettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		99CE7E91133F30370061D02B /* googleAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = googleAPI.h; sourceTree = "<group>"; };
+		99CE7E92133F30370061D02B /* googleAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = googleAPI.m; sourceTree = "<group>"; };
+		99DEF25613236CB5005DFD21 /* Recipes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = text; path = Recipes.sqlite; sourceTree = "<group>"; };
+		99DEF4601323BE74005DFD21 /* Solid_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Solid_256.png; sourceTree = "<group>"; };
+		99DEF4631323BF72005DFD21 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		99DEF4641323BF72005DFD21 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		99DEF4651323BF72005DFD21 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		99DEF4F71324F471005DFD21 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		99DEF4F81324F471005DFD21 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		99E069921332125700597FCF /* DetailHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailHeaderView.xib; sourceTree = "<group>"; };
+		99E06A08133219E900597FCF /* Platform_tabWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform_tabWrapper.h; sourceTree = "<group>"; };
+		99E06A09133219E900597FCF /* Platform_tabWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform_tabWrapper.m; sourceTree = "<group>"; };
+		99E06A7C13321FB000597FCF /* Platform_navWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform_navWrapper.h; sourceTree = "<group>"; };
+		99E06A7D13321FB000597FCF /* Platform_navWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform_navWrapper.m; sourceTree = "<group>"; };
+		99E06C5213324F3400597FCF /* Platform_tabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform_tabController.h; sourceTree = "<group>"; };
+		99E06C5313324F3400597FCF /* Platform_tabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform_tabController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B35EC40FC5DCD100ED0C40 /* CoreData.framework in Frameworks */,
+				28B35EC60FC5DCD100ED0C40 /* CoreGraphics.framework in Frameworks */,
+				28B35EC80FC5DCD100ED0C40 /* Foundation.framework in Frameworks */,
+				28B35FB70FC5E10C00ED0C40 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Recipe View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				283EA3620DEE388300DBD352 /* RecipeTableViewCell.h */,
+				283EA3630DEE388300DBD352 /* RecipeTableViewCell.m */,
+				99E069921332125700597FCF /* DetailHeaderView.xib */,
+				28FCBF0A0DE6A6C6007A15C7 /* RecipeListTableViewController.h */,
+				28FCBF0B0DE6A6C6007A15C7 /* RecipeListTableViewController.m */,
+			);
+			name = "Recipe View Controllers";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* WordNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286DDA180DE761A2005EF016 /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* RecipesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RecipesAppDelegate.m */,
+				53CE978411C6E99200594C94 /* MainWindow.xib */,
+			);
+			name = MainWindow;
+			sourceTree = "<group>";
+		};
+		28EDDE630E043E7F0085763B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99A103A7139222B800BCA841 /* Icon.png */,
+				990FB4CB1335F52A00A3CA71 /* Default.png */,
+				53CE979C11C6EA1000594C94 /* choosePhoto.png */,
+				53CE979D11C6EA1000594C94 /* convert.png */,
+				53CE979E11C6EA1000594C94 /* fork.png */,
+				539FF19511D41CB200EFF5ED /* Icon-72.png */,
+				539FF19611D41CB200EFF5ED /* Icon-Small-50.png */,
+				539FF19711D41CB200EFF5ED /* Icon-Small.png */,
+				539FF19811D41CB200EFF5ED /* Icon-Small@2x.png */,
+				539FF19A11D41CB200EFF5ED /* Icon@2x.png */,
+				539FF19B11D41CB200EFF5ED /* iTunesArtwork */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		28EDDE6E0E043EF10085763B /* Application Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99DEF25613236CB5005DFD21 /* Recipes.sqlite */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				99B6FDED135153570047A0B2 /* notes.plist */,
+			);
+			name = "Application Resources";
+			sourceTree = "<group>";
+		};
+		28FCBE8F0DE69AD4007A15C7 /* Model and Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28D3D9AC0FC33C27000F9EF1 /* Recipes.xcdatamodel */,
+				28FCBE780DE69516007A15C7 /* Recipe.h */,
+				28FCBE790DE69516007A15C7 /* Recipe.m */,
+				9912BB241340DDC700DFD430 /* RecipeType.h */,
+				9912BB251340DDC700DFD430 /* RecipeType.m */,
+			);
+			name = "Model and Model Classes";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				99C65A63137F789B003E81EE /* SettingView */,
+				99B39DF81340C18200B98885 /* Note Selecter View Controller */,
+				99CE7E90133F30240061D02B /* GoogleAPI */,
+				99E06A06133219CA00597FCF /* Platform */,
+				080E96DDFE201D6D7F000001 /* Recipe View Controllers */,
+				99DEF4621323BEEE005DFD21 /* CardView */,
+				99DEF45F1323BE5E005DFD21 /* Resources */,
+				28FCBE8F0DE69AD4007A15C7 /* Model and Model Classes */,
+				286DDA180DE761A2005EF016 /* MainWindow */,
+				28EDDE630E043E7F0085763B /* Images */,
+				28EDDE6E0E043EF10085763B /* Application Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* WordNote_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28B35EC30FC5DCD100ED0C40 /* CoreData.framework */,
+				28B35EC50FC5DCD100ED0C40 /* CoreGraphics.framework */,
+				28B35EC70FC5DCD100ED0C40 /* Foundation.framework */,
+				28B35EC90FC5DCD100ED0C40 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99B39DF81340C18200B98885 /* Note Selecter View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99B39DFA1340C1CB00B98885 /* NoteSelector.h */,
+				99B39DFB1340C1CB00B98885 /* NoteSelector.m */,
+				99B39DFC1340C1CB00B98885 /* NoteSelector.xib */,
+				99C4DC4E13531D28001A3B47 /* NoteSelectorTableViewCell.h */,
+				99C4DC4F13531D28001A3B47 /* NoteSelectorTableViewCell.m */,
+			);
+			name = "Note Selecter View Controller";
+			sourceTree = "<group>";
+		};
+		99C65A63137F789B003E81EE /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				99C65A64137F78AF003E81EE /* SettingView.h */,
+				99C65A65137F78AF003E81EE /* SettingView.m */,
+				99C65A66137F78AF003E81EE /* SettingView.xib */,
+			);
+			name = SettingView;
+			sourceTree = "<group>";
+		};
+		99CE7E90133F30240061D02B /* GoogleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				99CE7E91133F30370061D02B /* googleAPI.h */,
+				99CE7E92133F30370061D02B /* googleAPI.m */,
+			);
+			name = GoogleAPI;
+			sourceTree = "<group>";
+		};
+		99DEF45F1323BE5E005DFD21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99DEF4601323BE74005DFD21 /* Solid_256.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99DEF4621323BEEE005DFD21 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				99DEF4631323BF72005DFD21 /* CardViewController.h */,
+				99DEF4641323BF72005DFD21 /* CardViewController.m */,
+				99DEF4651323BF72005DFD21 /* CardViewController.xib */,
+				99DEF4F71324F471005DFD21 /* CardView.h */,
+				99DEF4F81324F471005DFD21 /* CardView.m */,
+				990FB5481335F7FC00A3CA71 /* CardDetailView.h */,
+				990FB5491335F7FC00A3CA71 /* CardDetailView.m */,
+			);
+			name = CardView;
+			sourceTree = "<group>";
+		};
+		99E06A06133219CA00597FCF /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				996CFAD7136DB5A7004C2F26 /* Platform_pListWrapper.h */,
+				996CFAD5136DB596004C2F26 /* Platform_pListWrapper.m */,
+				99E06A7C13321FB000597FCF /* Platform_navWrapper.h */,
+				99E06A7D13321FB000597FCF /* Platform_navWrapper.m */,
+				99E06A08133219E900597FCF /* Platform_tabWrapper.h */,
+				99E06A09133219E900597FCF /* Platform_tabWrapper.m */,
+				99E06C5213324F3400597FCF /* Platform_tabController.h */,
+				99E06C5313324F3400597FCF /* Platform_tabController.m */,
+				990FB822133627E400A3CA71 /* Platform_textView.h */,
+				990FB823133627E400A3CA71 /* Platform_textView.m */,
+				99C5E6A71363E95600F3FB93 /* zedoul_common.h */,
+				99A1036B1390F92100BCA841 /* Custom_UIToolbar.h */,
+				99A1036C1390F92100BCA841 /* Custom_UIToolbar.m */,
+			);
+			name = Platform;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* WordNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WordNote" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordNote;
+			productName = ChocolateCake;
+			productReference = 1D6058910D05DD3D006BFB54 /* WordNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WordNote" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* WordNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CE978611C6E99200594C94 /* MainWindow.xib in Resources */,
+				53CE97A011C6EA1000594C94 /* choosePhoto.png in Resources */,
+				53CE97A111C6EA1000594C94 /* convert.png in Resources */,
+				53CE97A211C6EA1000594C94 /* fork.png in Resources */,
+				539FF19C11D41CB200EFF5ED /* Icon-72.png in Resources */,
+				539FF19D11D41CB200EFF5ED /* Icon-Small-50.png in Resources */,
+				539FF19E11D41CB200EFF5ED /* Icon-Small.png in Resources */,
+				539FF19F11D41CB200EFF5ED /* Icon-Small@2x.png in Resources */,
+				539FF1A111D41CB200EFF5ED /* Icon@2x.png in Resources */,
+				539FF1A211D41CB200EFF5ED /* iTunesArtwork in Resources */,
+				99DEF25713236CB5005DFD21 /* Recipes.sqlite in Resources */,
+				99DEF4611323BE74005DFD21 /* Solid_256.png in Resources */,
+				99DEF4671323BF72005DFD21 /* CardViewController.xib in Resources */,
+				99E069931332125700597FCF /* DetailHeaderView.xib in Resources */,
+				990FB4CC1335F52A00A3CA71 /* Default.png in Resources */,
+				99B39DFE1340C1CB00B98885 /* NoteSelector.xib in Resources */,
+				99B6FDEE135153570047A0B2 /* notes.plist in Resources */,
+				99C65A68137F78AF003E81EE /* SettingView.xib in Resources */,
+				99A103A8139222B800BCA841 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RecipesAppDelegate.m in Sources */,
+				28FCBE7A0DE69516007A15C7 /* Recipe.m in Sources */,
+				28FCBF0C0DE6A6C6007A15C7 /* RecipeListTableViewController.m in Sources */,
+				283EA3640DEE388300DBD352 /* RecipeTableViewCell.m in Sources */,
+				28D3D9AD0FC33C27000F9EF1 /* Recipes.xcdatamodel in Sources */,
+				99DEF4661323BF72005DFD21 /* CardViewController.m in Sources */,
+				99DEF4FA1324F471005DFD21 /* CardView.m in Sources */,
+				99E06A0A133219E900597FCF /* Platform_tabWrapper.m in Sources */,
+				99E06A7E13321FB000597FCF /* Platform_navWrapper.m in Sources */,
+				99E06C5413324F3400597FCF /* Platform_tabController.m in Sources */,
+				990FB54A1335F7FC00A3CA71 /* CardDetailView.m in Sources */,
+				990FB824133627E400A3CA71 /* Platform_textView.m in Sources */,
+				99CE7E93133F30370061D02B /* googleAPI.m in Sources */,
+				99B39DFD1340C1CB00B98885 /* NoteSelector.m in Sources */,
+				9912BB261340DDC700DFD430 /* RecipeType.m in Sources */,
+				99C4DC5013531D28001A3B47 /* NoteSelectorTableViewCell.m in Sources */,
+				996CFAD6136DB596004C2F26 /* Platform_pListWrapper.m in Sources */,
+				99C65A67137F78AF003E81EE /* SettingView.m in Sources */,
+				99A1036D1390F92100BCA841 /* Custom_UIToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53CE978411C6E99200594C94 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE978511C6E99200594C94 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WordNote_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = WordNote;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WordNote_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = WordNote;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PREBINDING = NO;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WordNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WordNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,1136 @@
+TWordNote
+v7
+r0
+t328370492.290097
+cCheck dependencies
+cProcessInfoPlistFile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Info.plist Info.plist
+cCompileXIB /Users/1111/Workspace/wordnature/en.lproj/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/WordNote.app/choosePhoto.png images/choosePhoto.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/convert.png images/convert.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/fork.png images/fork.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/Icon-72.png images/Icon-72.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/Icon-Small-50.png images/Icon-Small-50.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/Icon-Small.png images/Icon-Small.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/Icon-Small@2x.png images/Icon-Small@2x.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/Icon@2x.png images/Icon@2x.png
+cCpResource build/Debug-iphonesimulator/WordNote.app/iTunesArtwork images/iTunesArtwork
+cCpResource build/Debug-iphonesimulator/WordNote.app/Recipes.sqlite Recipes.sqlite
+cCpResource build/Debug-iphonesimulator/WordNote.app/Solid_256.png Solid_256.png
+cCompileXIB /Users/1111/Workspace/wordnature/CardViewController.xib
+cCompileXIB /Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib
+cCpResource build/Debug-iphonesimulator/WordNote.app/Default.png Default.png
+cCompileXIB /Users/1111/Workspace/wordnature/NoteSelector.xib
+cCopyPlistFile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/notes.plist notes.plist
+cCompileXIB /Users/1111/Workspace/wordnature/SettingView.xib
+cCpResource build/Debug-iphonesimulator/WordNote.app/Icon.png Icon.png
+cProcessPCH /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch.gch WordNote_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Recipes.mom /Users/1111/Workspace/wordnature/Recipes.xcdatamodel
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/main.o /Users/1111/Workspace/wordnature/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipesAppDelegate.o /Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Recipe.o /Users/1111/Workspace/wordnature/Classes/Recipe.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeListTableViewController.o /Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeTableViewCell.o /Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardViewController.o /Users/1111/Workspace/wordnature/CardViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardView.o /Users/1111/Workspace/wordnature/CardView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabWrapper.o /Users/1111/Workspace/wordnature/Platform_tabWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_navWrapper.o /Users/1111/Workspace/wordnature/Platform_navWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabController.o /Users/1111/Workspace/wordnature/Platform_tabController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardDetailView.o /Users/1111/Workspace/wordnature/CardDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_textView.o /Users/1111/Workspace/wordnature/Platform_textView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/googleAPI.o /Users/1111/Workspace/wordnature/googleAPI.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelector.o /Users/1111/Workspace/wordnature/NoteSelector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeType.o /Users/1111/Workspace/wordnature/RecipeType.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelectorTableViewCell.o /Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_pListWrapper.o /Users/1111/Workspace/wordnature/Platform_pListWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/SettingView.o /Users/1111/Workspace/wordnature/SettingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Custom_UIToolbar.o /Users/1111/Workspace/wordnature/Custom_UIToolbar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote normal i386
+cGenerateDSYMFile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app.dSYM /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote
+cTouch /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/1111/Workspace/wordnature/CardDetailView.h
+c000000004DBD7D6500000000000000CD
+t1304264037
+s205
+i<UIKit/UIKit.h>
+i"CardViewController.h"
+
+N/Users/1111/Workspace/wordnature/CardDetailView.m
+c000000004DBD7D6500000000000000BD
+t1304264037
+s189
+i"CardDetailView.h"
+
+N/Users/1111/Workspace/wordnature/CardView.h
+c000000004DBD7D6500000000000001CE
+t1304264037
+s462
+i<UIKit/UIKit.h>
+i"CardViewController.h"
+
+N/Users/1111/Workspace/wordnature/CardView.m
+c000000004DBD7D650000000000001712
+t1304264037
+s5906
+i"CardView.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/1111/Workspace/wordnature/CardViewController.h
+c000000004DBD7D65000000000000020E
+t1304264037
+s526
+i<UIKit/UIKit.h>
+
+N/Users/1111/Workspace/wordnature/CardViewController.m
+c000000004DBD7D6500000000000018E3
+t1304264037
+s6371
+i"CardView.h"
+i"CardViewController.h"
+i"RecipeListTableViewController.h"
+i"Recipe.h"
+
+N/Users/1111/Workspace/wordnature/CardViewController.xib
+c000000004DBD7D650000000000003B46
+t1304264037
+s15174
+
+N/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib
+c000000004DBD7D6500000000000089F4
+t1304264037
+s35316
+
+N/Users/1111/Workspace/wordnature/Classes/Recipe.h
+c000000004DBD7D6500000000000003A4
+t1304264037
+s932
+
+N/Users/1111/Workspace/wordnature/Classes/Recipe.m
+c000000004DBD7D65000000000000022B
+t1304264037
+s555
+i"Recipe.h"
+
+N/Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.h
+c000000004DBD7D65000000000000035F
+t1304264037
+s863
+
+N/Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.m
+c000000004DE0BF8E0000000000008B49
+t1306574734
+s35657
+i"zedoul_common.h"
+i"googleAPI.h"
+i"RecipeListTableViewController.h"
+i"Recipe.h"
+i"RecipeTableViewCell.h"
+i"NoteSelector.h"
+i"Platform_pListWrapper.h"
+
+N/Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.h
+c000000004DE0BCDF00000000000003EE
+t1306574047
+s1006
+i"Recipe.h"
+i"Platform_textView.h"
+
+N/Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.m
+c000000004DD9281A0000000000001C22
+t1306077210
+s7202
+i"RecipeTableViewCell.h"
+i"zedoul_common.h"
+
+N/Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.h
+c000000004DCFCCF500000000000003B3
+t1305464053
+s947
+
+N/Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.m
+c000000004DE0C21000000000000021F7
+t1306575376
+s8695
+i"zedoul_common.h"
+i"RecipesAppDelegate.h"
+i"RecipeListTableViewController.h"
+i"CardViewController.h"
+i"Platform_tabWrapper.h"
+i"Platform_navWrapper.h"
+i"NoteSelector.h"
+i"Platform_pListWrapper.h"
+i"SettingView.h"
+i"Custom_UIToolbar.h"
+
+N/Users/1111/Workspace/wordnature/Custom_UIToolbar.h
+c000000004DE0C1C4000000000000004D
+t1306575300
+s77
+i<UIKit/UIKit.h>
+
+N/Users/1111/Workspace/wordnature/Custom_UIToolbar.m
+c000000004DE0C1F600000000000000F6
+t1306575350
+s246
+i"Custom_UIToolbar.h"
+
+N/Users/1111/Workspace/wordnature/Default.png
+c000000004DBD7D650000000000001D46
+t1304264037
+s7494
+
+N/Users/1111/Workspace/wordnature/Icon.png
+c000000004DE1EAE10000000000001E62
+t1306651361
+s7778
+
+N/Users/1111/Workspace/wordnature/NoteSelector.h
+c000000004DBD7D65000000000000009D
+t1304264037
+s157
+
+N/Users/1111/Workspace/wordnature/NoteSelector.m
+c000000004DCBDB060000000000001A77
+t1305205510
+s6775
+i"NoteSelector.h"
+i"RecipeType.h"
+i"RecipeListTableViewController.h"
+i"Platform_pListWrapper.h"
+i"RecipeListTableViewController.h"
+i"NoteSelectorTableViewCell.h"
+
+N/Users/1111/Workspace/wordnature/NoteSelector.xib
+c000000004DBD7D65000000000000185F
+t1304264037
+s6239
+
+N/Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.h
+c000000004DBD7D650000000000000117
+t1304264037
+s279
+
+N/Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.m
+c000000004DBD7D65000000000000073C
+t1304264037
+s1852
+i"zedoul_common.h"
+i"NoteSelectorTableViewCell.h"
+i"Platform_textView.h"
+
+N/Users/1111/Workspace/wordnature/Platform_navWrapper.h
+c000000004DBD7D65000000000000024D
+t1304264037
+s589
+
+N/Users/1111/Workspace/wordnature/Platform_navWrapper.m
+c000000004DBD7D6500000000000003A6
+t1304264037
+s934
+i"Platform_navWrapper.h"
+
+N/Users/1111/Workspace/wordnature/Platform_pListWrapper.h
+c000000004DBD7D980000000000000235
+t1304264088
+s565
+
+N/Users/1111/Workspace/wordnature/Platform_pListWrapper.m
+c000000004DCF9DB10000000000000CA7
+t1305451953
+s3239
+i"Platform_pListWrapper.h"
+
+N/Users/1111/Workspace/wordnature/Platform_tabController.h
+c000000004DBD7D650000000000000061
+t1304264037
+s97
+
+N/Users/1111/Workspace/wordnature/Platform_tabController.m
+c000000004DBD7D65000000000000024F
+t1304264037
+s591
+i"Platform_tabController.h"
+i"CardViewController.h"
+
+N/Users/1111/Workspace/wordnature/Platform_tabWrapper.h
+c000000004DBD7D6500000000000001A3
+t1304264037
+s419
+i"Platform_tabController.h"
+
+N/Users/1111/Workspace/wordnature/Platform_tabWrapper.m
+c000000004DBD7D650000000000000299
+t1304264037
+s665
+i"Platform_tabWrapper.h"
+
+N/Users/1111/Workspace/wordnature/Platform_textView.h
+c000000004DBD7D65000000000000004D
+t1304264037
+s77
+i<UIKit/UIKit.h>
+
+N/Users/1111/Workspace/wordnature/Platform_textView.m
+c000000004DBD7D65000000000000049F
+t1304264037
+s1183
+i"Platform_textView.h"
+
+N/Users/1111/Workspace/wordnature/RecipeType.h
+c000000004DBD7D65000000000000019F
+t1304264037
+s415
+i<CoreData/CoreData.h>
+
+N/Users/1111/Workspace/wordnature/RecipeType.m
+c000000004DBD7D6500000000000000F6
+t1304264037
+s246
+i"RecipeType.h"
+i"Recipe.h"
+
+N/Users/1111/Workspace/wordnature/Recipes.sqlite
+c000000004DBD7D650000000000000000
+t1304264037
+s0
+
+N/Users/1111/Workspace/wordnature/Recipes.xcdatamodel
+c000000004DBD7D650000000000000088
+t1304264037
+s136
+
+N/Users/1111/Workspace/wordnature/SettingView.h
+c000000004DCF429E0000000000000050
+t1305428638
+s80
+i<UIKit/UIKit.h>
+
+N/Users/1111/Workspace/wordnature/SettingView.m
+c000000004DCF412F0000000000000592
+t1305428271
+s1426
+i"SettingView.h"
+
+N/Users/1111/Workspace/wordnature/SettingView.xib
+c000000004DCF412F000000000000185C
+t1305428271
+s6236
+
+N/Users/1111/Workspace/wordnature/Solid_256.png
+c000000004DBD7D650000000000006D82
+t1304264037
+s28034
+
+N/Users/1111/Workspace/wordnature/WordNote_Prefix.pch
+c000000004DBD7D6500000000000000E9
+t1304264037
+s233
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app
+t1306651450
+s850
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app.dSYM
+t1306575377
+s102
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/CardViewController.nib
+t1306574666
+s764
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Default.png
+t1306574666
+s7494
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/DetailHeaderView.nib
+t1306574668
+s3800
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Icon-72.png
+t1306574665
+s1063
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Icon-Small-50.png
+t1306574665
+s992
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Icon-Small.png
+t1306574665
+s918
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Icon-Small@2x.png
+t1306574665
+s1010
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Icon.png
+t1306651450
+s7778
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Icon@2x.png
+t1306574665
+s1252
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Info.plist
+t1306574665
+s723
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/NoteSelector.nib
+t1306574667
+s764
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/PkgInfo
+t1306574665
+s8
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Recipes.mom
+t1306574669
+s4012
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Recipes.sqlite
+t1306574665
+s0
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/SettingView.nib
+t1306574668
+s764
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Solid_256.png
+t1306574666
+s28034
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote
+t1306575377
+s130348
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/choosePhoto.png
+t1306574665
+s7846
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/convert.png
+t1306574665
+s427
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/en.lproj/MainWindow.nib
+t1306574666
+s960
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/fork.png
+t1306574665
+s211
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/iTunesArtwork
+t1306574665
+s5188
+
+N/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/notes.plist
+t1306574667
+s97
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardDetailView.o
+t1306574670
+s38032
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardView.o
+t1306574670
+s50912
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardViewController.o
+t1306574670
+s61512
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Custom_UIToolbar.o
+t1306575351
+s38540
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelector.o
+t1306574670
+s63944
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelectorTableViewCell.o
+t1306574671
+s47700
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_navWrapper.o
+t1306574670
+s42368
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_pListWrapper.o
+t1306574671
+s21528
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabController.o
+t1306574670
+s42596
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabWrapper.o
+t1306574670
+s42016
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_textView.o
+t1306574670
+s39768
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Recipe.o
+t1306574669
+s5500
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeListTableViewController.o
+t1306574735
+s121132
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeTableViewCell.o
+t1306574670
+s65384
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeType.o
+t1306574670
+s5240
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipesAppDelegate.o
+t1306575377
+s75188
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/SettingView.o
+t1306574671
+s37464
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/WordNote.LinkFileList
+c000000004DE0C1F7000000000000099F
+t1306575351
+s2463
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/googleAPI.o
+t1306574670
+s12416
+
+N/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/main.o
+t1306574669
+s6288
+
+N/Users/1111/Workspace/wordnature/en.lproj/MainWindow.xib
+c000000004DBD7D660000000000004F19
+t1304264038
+s20249
+
+N/Users/1111/Workspace/wordnature/googleAPI.h
+c000000004DBD7D6600000000000000BA
+t1304264038
+s186
+
+N/Users/1111/Workspace/wordnature/googleAPI.m
+c000000004DBD7D660000000000000B1A
+t1304264038
+s2842
+i"googleAPI.h"
+
+N/Users/1111/Workspace/wordnature/images/Icon-72.png
+c000000004DBD7D660000000000000427
+t1304264038
+s1063
+
+N/Users/1111/Workspace/wordnature/images/Icon-Small-50.png
+c000000004DBD7D6600000000000003E0
+t1304264038
+s992
+
+N/Users/1111/Workspace/wordnature/images/Icon-Small.png
+c000000004DBD7D660000000000000396
+t1304264038
+s918
+
+N/Users/1111/Workspace/wordnature/images/Icon-Small@2x.png
+c000000004DBD7D6600000000000003F2
+t1304264038
+s1010
+
+N/Users/1111/Workspace/wordnature/images/Icon.png
+c000000004DBD7D6600000000000003EF
+t1304264038
+s1007
+
+N/Users/1111/Workspace/wordnature/images/Icon@2x.png
+c000000004DBD7D6600000000000004E4
+t1304264038
+s1252
+
+N/Users/1111/Workspace/wordnature/images/choosePhoto.png
+c000000004DBD7D660000000000001EA6
+t1304264038
+s7846
+
+N/Users/1111/Workspace/wordnature/images/convert.png
+c000000004DBD7D6600000000000001AB
+t1304264038
+s427
+
+N/Users/1111/Workspace/wordnature/images/fork.png
+c000000004DBD7D6600000000000000D3
+t1304264038
+s211
+
+N/Users/1111/Workspace/wordnature/images/iTunesArtwork
+c000000004DBD7D660000000000001444
+t1304264038
+s5188
+
+N/Users/1111/Workspace/wordnature/main.m
+c000000004DBD7D6600000000000000CD
+t1304264038
+s205
+
+N/Users/1111/Workspace/wordnature/notes.plist
+c000000004DBD7D660000000000000149
+t1304264038
+s329
+
+N/Users/1111/Workspace/wordnature/zedoul_common.h
+c000000004DBD7D6600000000000000AC
+t1304264038
+s172
+
+N/var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch.gch
+t1306574669
+s16330736
+
+NInfo.plist
+c000000004DBD7D650000000000000448
+t1304264037
+s1096
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies328370492#328370492#0(0"0(0#1#0"8623542624#0"0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardDetailView.o /Users/1111/Workspace/wordnature/CardDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.598151
+e328267470.734195
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardDetailView.o
+x/Users/1111/Workspace/wordnature/CardDetailView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/1111/Workspace/wordnature/CardDetailView.m328267470#328267470#0(0"0(0#0#49"/Users/1111/Workspace/wordnature/CardDetailView.m8617805376#1950"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/CardDetailView.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardDetailView.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardView.o /Users/1111/Workspace/wordnature/CardView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.325934
+e328267470.509977
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardView.o
+x/Users/1111/Workspace/wordnature/CardView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/1111/Workspace/wordnature/CardView.m328267470#328267470#0(0"0(0#0#43"/Users/1111/Workspace/wordnature/CardView.m8617308928#1938"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/CardView.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardView.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardViewController.o /Users/1111/Workspace/wordnature/CardViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.142432
+e328267470.352414
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardViewController.o
+x/Users/1111/Workspace/wordnature/CardViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/1111/Workspace/wordnature/CardViewController.m328267470#328267470#0(0"0(0#0#53"/Users/1111/Workspace/wordnature/CardViewController.m8614419744#1958"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/CardViewController.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/CardViewController.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Custom_UIToolbar.o /Users/1111/Workspace/wordnature/Custom_UIToolbar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328268151.359746
+e328268151.607162
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Custom_UIToolbar.o
+x/Users/1111/Workspace/wordnature/Custom_UIToolbar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/1111/Workspace/wordnature/Custom_UIToolbar.m328268151#328268151#0(0"0(0#0#51"/Users/1111/Workspace/wordnature/Custom_UIToolbar.m8618112352#1954"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Custom_UIToolbar.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Custom_UIToolbar.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelector.o /Users/1111/Workspace/wordnature/NoteSelector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.773114
+e328267470.987874
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelector.o
+x/Users/1111/Workspace/wordnature/NoteSelector.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/1111/Workspace/wordnature/NoteSelector.m328267470#328267471#0(0"0(0#0#47"/Users/1111/Workspace/wordnature/NoteSelector.m8616647168#1946"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/NoteSelector.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelector.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelectorTableViewCell.o /Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.988008
+e328267471.322331
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelectorTableViewCell.o
+x/Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.m328267470#328267471#0(0"0(0#0#60"/Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.m8614657312#1972"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/NoteSelectorTableViewCell.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/NoteSelectorTableViewCell.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_navWrapper.o /Users/1111/Workspace/wordnature/Platform_navWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.474919
+e328267470.598011
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_navWrapper.o
+x/Users/1111/Workspace/wordnature/Platform_navWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/1111/Workspace/wordnature/Platform_navWrapper.m328267470#328267470#0(0"0(0#0#54"/Users/1111/Workspace/wordnature/Platform_navWrapper.m8614591136#1960"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Platform_navWrapper.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_navWrapper.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_pListWrapper.o /Users/1111/Workspace/wordnature/Platform_pListWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267471.013232
+e328267471.203002
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_pListWrapper.o
+x/Users/1111/Workspace/wordnature/Platform_pListWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/1111/Workspace/wordnature/Platform_pListWrapper.m328267471#328267471#0(0"0(0#0#56"/Users/1111/Workspace/wordnature/Platform_pListWrapper.m8616502176#1964"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Platform_pListWrapper.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_pListWrapper.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabController.o /Users/1111/Workspace/wordnature/Platform_tabController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.510108
+e328267470.651180
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabController.o
+x/Users/1111/Workspace/wordnature/Platform_tabController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/1111/Workspace/wordnature/Platform_tabController.m328267470#328267470#0(0"0(0#0#57"/Users/1111/Workspace/wordnature/Platform_tabController.m8614942272#1966"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Platform_tabController.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabController.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabWrapper.o /Users/1111/Workspace/wordnature/Platform_tabWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.352584
+e328267470.474794
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabWrapper.o
+x/Users/1111/Workspace/wordnature/Platform_tabWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/1111/Workspace/wordnature/Platform_tabWrapper.m328267470#328267470#0(0"0(0#0#54"/Users/1111/Workspace/wordnature/Platform_tabWrapper.m8600994880#1960"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Platform_tabWrapper.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_tabWrapper.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_textView.o /Users/1111/Workspace/wordnature/Platform_textView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.651303
+e328267470.772981
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_textView.o
+x/Users/1111/Workspace/wordnature/Platform_textView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/1111/Workspace/wordnature/Platform_textView.m328267470#328267470#0(0"0(0#0#52"/Users/1111/Workspace/wordnature/Platform_textView.m8617363552#1956"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Platform_textView.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Platform_textView.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Recipe.o /Users/1111/Workspace/wordnature/Classes/Recipe.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267469.845457
+e328267469.936400
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Recipe.o
+x/Users/1111/Workspace/wordnature/Classes/Recipe.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/1111/Workspace/wordnature/Classes/Recipe.m328267469#328267469#0(0"0(0#0#49"/Users/1111/Workspace/wordnature/Classes/Recipe.m8616786624#1942"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Classes/Recipe.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/Recipe.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeListTableViewController.o /Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267534.750120
+e328267535.112678
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeListTableViewController.o
+x/Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.m328267534#328267535#0(0"0(0#0#72"/Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.m8610156064#1988"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Classes/RecipeListTableViewController.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeListTableViewController.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeTableViewCell.o /Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267469.960854
+e328267470.142303
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeTableViewCell.o
+x/Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.m328267469#328267470#0(0"0(0#0#62"/Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.m8616225120#1968"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Classes/RecipeTableViewCell.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeTableViewCell.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeType.o /Users/1111/Workspace/wordnature/RecipeType.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.864498
+e328267471.013058
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeType.o
+x/Users/1111/Workspace/wordnature/RecipeType.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/1111/Workspace/wordnature/RecipeType.m328267470#328267471#0(0"0(0#0#45"/Users/1111/Workspace/wordnature/RecipeType.m8616432608#1942"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/RecipeType.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipeType.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipesAppDelegate.o /Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328268176.774287
+e328268177.047276
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipesAppDelegate.o
+x/Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.m328268176#328268177#0(0"0(0#0#61"/Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.m8621115520#1966"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/Classes/RecipesAppDelegate.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/RecipesAppDelegate.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/SettingView.o /Users/1111/Workspace/wordnature/SettingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267471.203231
+e328267471.311714
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/SettingView.o
+x/Users/1111/Workspace/wordnature/SettingView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/1111/Workspace/wordnature/SettingView.m328267471#328267471#0(0"0(0#0#46"/Users/1111/Workspace/wordnature/SettingView.m8614775104#1944"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/SettingView.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/SettingView.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/googleAPI.o /Users/1111/Workspace/wordnature/googleAPI.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267470.734341
+e328267470.864374
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/googleAPI.o
+x/Users/1111/Workspace/wordnature/googleAPI.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/1111/Workspace/wordnature/googleAPI.m328267470#328267470#0(0"0(0#0#44"/Users/1111/Workspace/wordnature/googleAPI.m8616738848#1940"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/googleAPI.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/googleAPI.o0#
+
+CCompileC build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/main.o /Users/1111/Workspace/wordnature/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267469.688537
+e328267469.772122
+r1
+xCompileC
+xbuild/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/main.o
+x/Users/1111/Workspace/wordnature/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/1111/Workspace/wordnature/main.m328267469#328267469#0(0"0(0#0#39"/Users/1111/Workspace/wordnature/main.m8617723904#1930"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch -c /Users/1111/Workspace/wordnature/main.m -o /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/1111/Workspace/wordnature/CardViewController.xib
+s328267465.962984
+e328267466.564039
+r1
+xCompileXIB
+x/Users/1111/Workspace/wordnature/CardViewController.xib
+lSLF07#2@33"CompileXIB CardViewController.xib328267465#328267466#0(0"0(0#0#55"/Users/1111/Workspace/wordnature/CardViewController.xib8617403904#631"    cd /Users/1111/Workspace/wordnature    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/CardViewController.nib /Users/1111/Workspace/wordnature/CardViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib
+s328267466.493468
+e328267468.273350
+r1
+xCompileXIB
+x/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: This object has a customized accessibility attributes. Accessibility attributes will be ignored on iOS versions prior to 3.0.
+o/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iOS versions prior to 2.1.
+o/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: UITextView does not support data detectors on iOS versions prior to 3.0.
+o/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: UITextView does not support data detectors when the text view is editable.
+lSLF07#2@39"CompileXIB Classes/DetailHeaderView.xib328267466#328267468#0(697"/* com.apple.ibtool.document.warnings *//Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: This object has a customized accessibility attributes. Accessibility attributes will be ignored on iOS versions prior to 3.0./Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iOS versions prior to 2.1./Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: UITextView does not support data detectors on iOS versions prior to 3.0./Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib:35: warning: UITextView does not support data detectors when the text view is editable.4(22@125"This object has a customized accessibility attributes. Accessibility attributes will be ignored on iOS versions prior to 3.0.328267468#18446744073709551615#0#0(6@61"/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib325956837#35#0#35#0#0"0(22@81"UIScrollView's 'Bounce Zoom' option will be ignored on iOS versions prior to 2.1.328267468#18446744073709551615#0#0(6@61"/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib325956837#35#0#35#0#0"0(22@72"UITextView does not support data detectors on iOS versions prior to 3.0.328267468#18446744073709551615#0#0(6@61"/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib325956837#35#0#35#0#0"0(22@74"UITextView does not support data detectors when the text view is editable.328267468#18446744073709551615#0#0(6@61"/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib325956837#35#0#35#0#0"0(0#0#61"/Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib8617855488#635"    cd /Users/1111/Workspace/wordnature    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/DetailHeaderView.nib /Users/1111/Workspace/wordnature/Classes/DetailHeaderView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Workspace/wordnature/NoteSelector.xib
+s328267466.565727
+e328267467.106265
+r1
+xCompileXIB
+x/Users/1111/Workspace/wordnature/NoteSelector.xib
+lSLF07#2@27"CompileXIB NoteSelector.xib328267466#328267467#0(0"0(0#0#49"/Users/1111/Workspace/wordnature/NoteSelector.xib8617575072#619"    cd /Users/1111/Workspace/wordnature    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/NoteSelector.nib /Users/1111/Workspace/wordnature/NoteSelector.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Workspace/wordnature/SettingView.xib
+s328267467.674886
+e328267468.256646
+r1
+xCompileXIB
+x/Users/1111/Workspace/wordnature/SettingView.xib
+lSLF07#2@26"CompileXIB SettingView.xib328267467#328267468#0(0"0(0#0#48"/Users/1111/Workspace/wordnature/SettingView.xib8613847744#617"    cd /Users/1111/Workspace/wordnature    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/SettingView.nib /Users/1111/Workspace/wordnature/SettingView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Workspace/wordnature/en.lproj/MainWindow.xib
+s328267465.853921
+e328267466.493355
+r1
+xCompileXIB
+x/Users/1111/Workspace/wordnature/en.lproj/MainWindow.xib
+lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib328267465#328267466#0(0"0(0#0#56"/Users/1111/Workspace/wordnature/en.lproj/MainWindow.xib8613684768#633"    cd /Users/1111/Workspace/wordnature    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/en.lproj/MainWindow.nib /Users/1111/Workspace/wordnature/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/notes.plist notes.plist
+s328267467.106397
+e328267467.674646
+r1
+xCopyPlistFile
+x/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/notes.plist
+xnotes.plist
+lSLF07#2@16"Copy notes.plist328267467#328267467#0(0"0(0#0#44"/Users/1111/Workspace/wordnature/notes.plist8614597792#437"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 notes.plist --outdir /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Default.png Default.png
+s328267466.564165
+e328267466.601068
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png328267466#328267466#0(0"0(0#0#44"/Users/1111/Workspace/wordnature/Default.png8617702880#514"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/Default.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Icon-72.png images/Icon-72.png
+s328267465.863761
+e328267465.962718
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Icon-72.png
+ximages/Icon-72.png
+lSLF07#2@23"Copy images/Icon-72.png328267465#328267465#0(0"0(0#0#51"/Users/1111/Workspace/wordnature/images/Icon-72.png8616425376#521"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/Icon-72.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Icon-Small-50.png images/Icon-Small-50.png
+s328267465.866206
+e328267465.947145
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Icon-Small-50.png
+ximages/Icon-Small-50.png
+lSLF07#2@29"Copy images/Icon-Small-50.png328267465#328267465#0(0"0(0#0#57"/Users/1111/Workspace/wordnature/images/Icon-Small-50.png8615055456#527"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/Icon-Small-50.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Icon-Small.png images/Icon-Small.png
+s328267465.869124
+e328267465.962886
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Icon-Small.png
+ximages/Icon-Small.png
+lSLF07#2@26"Copy images/Icon-Small.png328267465#328267465#0(0"0(0#0#54"/Users/1111/Workspace/wordnature/images/Icon-Small.png8614591392#524"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/Icon-Small.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Icon-Small@2x.png images/Icon-Small@2x.png
+s328267465.871486
+e328267465.975802
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Icon-Small@2x.png
+ximages/Icon-Small@2x.png
+lSLF07#2@29"Copy images/Icon-Small@2x.png328267465#328267465#0(0"0(0#0#57"/Users/1111/Workspace/wordnature/images/Icon-Small@2x.png8614464576#527"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/Icon-Small@2x.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Icon.png Icon.png
+s328344250.418408
+e328344250.532384
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png328344250#328344250#0(0"0(0#0#41"/Users/1111/Workspace/wordnature/Icon.png8610428096#511"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/Icon.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Icon.png images/Icon.png
+s328267465.873674
+e328267465.965773
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Icon.png
+ximages/Icon.png
+lSLF07#2@20"Copy images/Icon.png328267465#328267465#0(0"0(0#0#48"/Users/1111/Workspace/wordnature/images/Icon.png8614262784#518"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/Icon.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Icon@2x.png images/Icon@2x.png
+s328267465.876152
+e328267465.966772
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Icon@2x.png
+ximages/Icon@2x.png
+lSLF07#2@23"Copy images/Icon@2x.png328267465#328267465#0(0"0(0#0#51"/Users/1111/Workspace/wordnature/images/Icon@2x.png8614014272#521"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/Icon@2x.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Recipes.sqlite Recipes.sqlite
+s328267465.947263
+e328267465.958975
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Recipes.sqlite
+xRecipes.sqlite
+lSLF07#2@19"Copy Recipes.sqlite328267465#328267465#0(0"0(0#0#47"/Users/1111/Workspace/wordnature/Recipes.sqlite8617762592#517"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/Recipes.sqlite /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/Solid_256.png Solid_256.png
+s328267465.959210
+e328267466.027976
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/Solid_256.png
+xSolid_256.png
+lSLF07#2@18"Copy Solid_256.png328267465#328267466#0(0"0(0#0#46"/Users/1111/Workspace/wordnature/Solid_256.png8617582560#516"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/Solid_256.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/choosePhoto.png images/choosePhoto.png
+s328267465.856174
+e328267465.971011
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/choosePhoto.png
+ximages/choosePhoto.png
+lSLF07#2@27"Copy images/choosePhoto.png328267465#328267465#0(0"0(0#0#55"/Users/1111/Workspace/wordnature/images/choosePhoto.png8601153792#525"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/choosePhoto.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/convert.png images/convert.png
+s328267465.858400
+e328267465.943929
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/convert.png
+ximages/convert.png
+lSLF07#2@23"Copy images/convert.png328267465#328267465#0(0"0(0#0#51"/Users/1111/Workspace/wordnature/images/convert.png8617283744#521"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/convert.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/fork.png images/fork.png
+s328267465.861415
+e328267465.985732
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/fork.png
+ximages/fork.png
+lSLF07#2@20"Copy images/fork.png328267465#328267465#0(0"0(0#0#48"/Users/1111/Workspace/wordnature/images/fork.png8617276448#518"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/fork.png /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CCpResource build/Debug-iphonesimulator/WordNote.app/iTunesArtwork images/iTunesArtwork
+s328267465.944050
+e328267465.967710
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/WordNote.app/iTunesArtwork
+ximages/iTunesArtwork
+lSLF07#2@25"Copy images/iTunesArtwork328267465#328267465#0(0"0(0#0#53"/Users/1111/Workspace/wordnature/images/iTunesArtwork8617908736#523"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Workspace/wordnature/images/iTunesArtwork /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+
+CDataModelCompile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Recipes.mom /Users/1111/Workspace/wordnature/Recipes.xcdatamodel
+s328267469.687097
+e328267469.845313
+r1
+xDataModelCompile
+x/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Recipes.mom
+x/Users/1111/Workspace/wordnature/Recipes.xcdatamodel
+lSLF07#2@60"Compile /Users/1111/Workspace/wordnature/Recipes.xcdatamodel328267469#328267469#0(0"0(0#0#52"/Users/1111/Workspace/wordnature/Recipes.xcdatamodel8618074272#429"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/1111/Workspace/wordnature/Recipes.xcdatamodel /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Recipes.mom0#
+
+CGenerateDSYMFile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app.dSYM /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote
+s328268177.109557
+e328268177.179629
+r1
+xGenerateDSYMFile
+x/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app.dSYM
+x/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/WordNote.app.dSYM build/Debug-iphonesimulator/WordNote.app/WordNote328268177#328268177#0(0"0(0#0#82"/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote8619151424#430"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote -o /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app.dSYM0#
+
+CLd /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote normal i386
+s328268177.047434
+e328268177.109418
+r1
+xLd
+x/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote
+xnormal
+xi386
+lSLF07#2@87"Link /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote328268177#328268177#0(0"0(0#0#0"8619292000#957"    cd /Users/1111/Workspace/wordnature    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -filelist /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/Objects-normal/i386/WordNote.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework CoreData -framework CoreGraphics -framework Foundation -framework UIKit -o /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/WordNote0#
+
+CProcessInfoPlistFile /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Info.plist Info.plist
+s328267465.844188
+e328267465.853802
+r1
+xProcessInfoPlistFile
+x/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist328267465#328267465#0(0"0(0#0#43"/Users/1111/Workspace/wordnature/Info.plist8616400576#517"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app/Info.plist0#
+
+CProcessPCH /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch.gch WordNote_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s328267468.273505
+e328267469.686814
+r1
+xProcessPCH
+x/var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch.gch
+xWordNote_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WordNote_Prefix.pch328267468#328267469#0(0"0(0#0#52"/Users/1111/Workspace/wordnature/WordNote_Prefix.pch8610686144#1827"    cd /Users/1111/Workspace/wordnature    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-generated-files.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-own-target-headers.hmap -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-all-target-headers.hmap -iquote /Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/WordNote-project-headers.hmap -F/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator -I/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/include -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources/i386 -I/Users/1111/Workspace/wordnature/build/WordNote.build/Debug-iphonesimulator/WordNote.build/DerivedSources -c /Users/1111/Workspace/wordnature/WordNote_Prefix.pch -o /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WordNote_Prefix-fbkagbqkyelttjdspvynzldujmbm/WordNote_Prefix.pch.gch0#
+
+CTouch /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app
+s328344250.535558
+e328344250.582186
+r1
+xTouch
+x/Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app
+lSLF07#2@79"Touch /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app328344250#328344250#0(0"0(0#0#0"8614810272#329"    cd /Users/1111/Workspace/wordnature    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/1111/Workspace/wordnature/build/Debug-iphonesimulator/WordNote.app0#
+

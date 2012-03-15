@@ -1,0 +1,1108 @@
+TRecipes
+v7
+r0
+t316969394.953811
+cCheck dependencies
+cProcessInfoPlistFile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Info.plist Info.plist
+cCopyPlistFile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/TemperatureData.plist RecipeData/TemperatureData.plist
+cCpResource build/Debug-iphonesimulator/Recipes.app/Recipes.sqlite RecipeData/Recipes.sqlite
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/MainWindow.xib
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/DetailHeaderView.xib
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/RecipeAddView.xib
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/InstructionsView.xib
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureConverter.xib
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/WeightConverter.xib
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/EditingTableViewCell.xib
+cCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureCell.xib
+cCpResource build/Debug-iphonesimulator/Recipes.app/choosePhoto.png images/choosePhoto.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/convert.png images/convert.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/fork.png images/fork.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/Icon-72.png images/Icon-72.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/Icon-Small-50.png images/Icon-Small-50.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/Icon-Small.png images/Icon-Small.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/Icon-Small@2x.png images/Icon-Small@2x.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/Icon.png images/Icon.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/Icon@2x.png images/Icon@2x.png
+cCpResource build/Debug-iphonesimulator/Recipes.app/iTunesArtwork images/iTunesArtwork
+cProcessPCH /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes.mom /Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes.xcdatamodel
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o /Users/1111/Downloads/iPhoneCoreDataRecipes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipe.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeListTableViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeTableViewCell.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/UnitConverterTableViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/WeightConverterViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureConverterViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureCell.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/ImperialPickerController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/MetricPickerController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeAddViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeDetailViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipePhotoViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/InstructionsViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TypeSelectionViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Ingredient.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientDetailViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/EditingTableViewCell.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes normal i386
+cGenerateDSYMFile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app.dSYM /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+cTouch /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.h
+c000000004C2511D90000000000000AED
+t1277497817
+s2797
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.m
+c000000004C2511D90000000000000AF7
+t1277497817
+s2807
+i"EditingTableViewCell.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.h
+c000000004C2511D90000000000000AF8
+t1277497817
+s2808
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.m
+c000000004C2511D9000000000000187A
+t1277497817
+s6266
+i"ImperialPickerController.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.h
+c000000004C2511D90000000000000AAD
+t1277497817
+s2733
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.m
+c000000004C2511D90000000000000A4A
+t1277497817
+s2634
+i"Ingredient.h"
+i"Recipe.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.h
+c000000004C2511D90000000000000BAC
+t1277497817
+s2988
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.m
+c000000004D3457740000000000001A62
+t1295275892
+s6754
+i"IngredientDetailViewController.h"
+i"Recipe.h"
+i"Ingredient.h"
+i"EditingTableViewCell.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.h
+c000000004C2511D90000000000000B54
+t1277497817
+s2900
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.m
+c000000004C2511D90000000000001207
+t1277497817
+s4615
+i"InstructionsViewController.h"
+i"Recipe.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.h
+c000000004C2511D90000000000000B25
+t1277497817
+s2853
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.m
+c000000004C2511D90000000000002092
+t1277497817
+s8338
+i"MetricPickerController.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.h
+c000000004C2511D90000000000000CA6
+t1277497817
+s3238
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.m
+c000000004C2511D90000000000000BE6
+t1277497817
+s3046
+i"Recipe.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.h
+c000000004C2511D90000000000000CDC
+t1277497817
+s3292
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.m
+c000000004D3456F600000000000015A2
+t1295275766
+s5538
+i"RecipeAddViewController.h"
+i"Recipe.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.h
+c000000004C2511D90000000000000DCE
+t1277497817
+s3534
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.m
+c000000004D3459FF000000000000564D
+t1295276543
+s22093
+i"RecipeDetailViewController.h"
+i"Recipe.h"
+i"Ingredient.h"
+i"InstructionsViewController.h"
+i"TypeSelectionViewController.h"
+i"RecipePhotoViewController.h"
+i"IngredientDetailViewController.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.h
+c000000004C2511D90000000000000CAC
+t1277497817
+s3244
+i"RecipeAddViewController.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.m
+c000000004D345540000000000000327C
+t1295275328
+s12924
+i"RecipeListTableViewController.h"
+i"RecipeDetailViewController.h"
+i"Recipe.h"
+i"RecipeTableViewCell.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.h
+c000000004C2511D90000000000000AF4
+t1277497817
+s2804
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.m
+c000000004C2511D90000000000000DB3
+t1277497817
+s3507
+i"RecipePhotoViewController.h"
+i"Recipe.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.h
+c000000004C2511D90000000000000CC5
+t1277497817
+s3269
+i"Recipe.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.m
+c000000004C2511D90000000000001CAB
+t1277497817
+s7339
+i"RecipeTableViewCell.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.h
+c000000004C2511D90000000000000E10
+t1277497817
+s3600
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.m
+c000000004C2511D90000000000001E62
+t1277497817
+s7778
+i"RecipesAppDelegate.h"
+i"RecipeListTableViewController.h"
+i"UnitConverterTableViewController.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.h
+c000000004C2511D90000000000000B4F
+t1277497817
+s2895
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.m
+c000000004C2511D90000000000000C1A
+t1277497817
+s3098
+i"TemperatureCell.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.h
+c000000004C2511D90000000000000BA4
+t1277497817
+s2980
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.m
+c000000004C2511D900000000000012F4
+t1277497817
+s4852
+i"TemperatureConverterViewController.h"
+i"TemperatureCell.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.h
+c000000004C2511D90000000000000BD2
+t1277497817
+s3026
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.m
+c000000004C2511D900000000000017E6
+t1277497817
+s6118
+i"TypeSelectionViewController.h"
+i"Recipe.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.h
+c000000004C2511D90000000000000A4A
+t1277497817
+s2634
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.m
+c000000004C2511D900000000000012A0
+t1277497817
+s4768
+i"UnitConverterTableViewController.h"
+i"WeightConverterViewController.h"
+i"TemperatureConverterViewController.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.h
+c000000004C2511D90000000000000E06
+t1277497817
+s3590
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.m
+c000000004C2511D900000000000011EF
+t1277497817
+s4591
+i"WeightConverterViewController.h"
+i"MetricPickerController.h"
+i"ImperialPickerController.h"
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/RecipeData/Recipes.sqlite
+c000000004D34564B0000000000030800
+t1295275595
+s198656
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/RecipeData/TemperatureData.plist
+c000000004A15E1980000000000000822
+t1242947992
+s2082
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes.xcdatamodel
+c000000004C2511D80000000000000088
+t1277497816
+s136
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes_Prefix.pch
+c000000004C16B20100000000000000E9
+t1276555777
+s233
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app
+t1295276544
+s646
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app.dSYM
+t1295276544
+s102
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Icon-72.png
+t1295270164
+s1063
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Icon-Small-50.png
+t1295270164
+s992
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Icon-Small.png
+t1295270164
+s918
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Icon-Small@2x.png
+t1295270164
+s1010
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Icon.png
+t1295270164
+s1007
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Icon@2x.png
+t1295270164
+s1252
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Info.plist
+t1295270160
+s722
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/PkgInfo
+t1295270160
+s8
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+t1295276544
+s139044
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes.mom
+t1295270166
+s3881
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes.sqlite
+t1295275605
+s198656
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/TemperatureData.plist
+t1295270160
+s435
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/choosePhoto.png
+t1295270164
+s7846
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/convert.png
+t1295270164
+s427
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/DetailHeaderView.nib
+t1295275097
+s2753
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/EditingTableViewCell.nib
+t1295270164
+s2114
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/InstructionsView.nib
+t1295270162
+s2271
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/MainWindow.nib
+t1295275501
+s2120
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/RecipeAddView.nib
+t1295270162
+s1485
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/TemperatureCell.nib
+t1295270164
+s2005
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/TemperatureConverter.nib
+t1295270163
+s1801
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/WeightConverter.nib
+t1295270163
+s4070
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/fork.png
+t1295270164
+s211
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/iTunesArtwork
+t1295270164
+s5188
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/EditingTableViewCell.o
+t1295270168
+s39276
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/ImperialPickerController.o
+t1295270168
+s51236
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Ingredient.o
+t1295270168
+s5364
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientDetailViewController.o
+t1295275895
+s57292
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/InstructionsViewController.o
+t1295270168
+s49416
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/MetricPickerController.o
+t1295270168
+s55012
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipe.o
+t1295270166
+s10776
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeAddViewController.o
+t1295275844
+s52132
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeDetailViewController.o
+t1295276543
+s94232
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeListTableViewController.o
+t1295275375
+s73156
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipePhotoViewController.o
+t1295270168
+s46880
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeTableViewCell.o
+t1295270167
+s59216
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList
+c000000004D3441100000000000000AC4
+t1295270160
+s2756
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
+t1295270166
+s67748
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureCell.o
+t1295270167
+s41532
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureConverterViewController.o
+t1295270167
+s53288
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TypeSelectionViewController.o
+t1295270168
+s53552
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/UnitConverterTableViewController.o
+t1295270167
+s44640
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/WeightConverterViewController.o
+t1295270167
+s51168
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o
+t1295270166
+s6312
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/DetailHeaderView.xib
+c000000004D34544D0000000000007C9D
+t1295275085
+s31901
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/EditingTableViewCell.xib
+c000000004C16B2010000000000005B0F
+t1276555777
+s23311
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/InstructionsView.xib
+c000000004C16B201000000000000519A
+t1276555777
+s20890
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/MainWindow.xib
+c000000004D3455DF00000000000077F1
+t1295275487
+s30705
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/RecipeAddView.xib
+c000000004C16B2010000000000004FAE
+t1276555777
+s20398
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureCell.xib
+c000000004C16B2010000000000005C1F
+t1276555777
+s23583
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureConverter.xib
+c000000004C16B2010000000000005778
+t1276555777
+s22392
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/WeightConverter.xib
+c000000004C16B2010000000000007442
+t1276555777
+s29762
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-72.png
+c000000004C23E5EC0000000000000427
+t1277421036
+s1063
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small-50.png
+c000000004C23E5EC00000000000003E0
+t1277421036
+s992
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small.png
+c000000004C23E5EC0000000000000396
+t1277421036
+s918
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small@2x.png
+c000000004C23E5EC00000000000003F2
+t1277421036
+s1010
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon.png
+c000000004C23E68100000000000003EF
+t1277421185
+s1007
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon@2x.png
+c000000004C23E5EC00000000000004E4
+t1277421036
+s1252
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/choosePhoto.png
+c000000004C16B2010000000000001EA6
+t1276555777
+s7846
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/convert.png
+c000000004C16B20100000000000001AB
+t1276555777
+s427
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/fork.png
+c000000004C16B20100000000000000D3
+t1276555777
+s211
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/images/iTunesArtwork
+c000000004C23E5EC0000000000001444
+t1277421036
+s5188
+
+N/Users/1111/Downloads/iPhoneCoreDataRecipes/main.m
+c000000004C2511D90000000000000A65
+t1277497817
+s2661
+
+N/var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch.gch
+t1295270166
+s16330736
+
+NInfo.plist
+c000000004C23E5EC0000000000000464
+t1277421036
+s1124
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316969394#316969394#0(0"0(0#1#0"8652012800#0"0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/EditingTableViewCell.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962968.659806
+e316962968.799886
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/EditingTableViewCell.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.m316962968#316962968#0(0"0(0#0#74"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.m8636724160#2009"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/EditingTableViewCell.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/EditingTableViewCell.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/ImperialPickerController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962967.863781
+e316962968.042817
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/ImperialPickerController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.m316962967#316962968#0(0"0(0#0#78"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.m8605953376#2017"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/ImperialPickerController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/ImperialPickerController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Ingredient.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962968.563140
+e316962968.659667
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Ingredient.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.m316962968#316962968#0(0"0(0#0#64"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.m8644265376#1989"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Ingredient.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Ingredient.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientDetailViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316968695.401223
+e316968695.771755
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientDetailViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.m316968695#316968695#0(0"0(0#0#84"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.m8614528384#2029"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/IngredientDetailViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientDetailViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/InstructionsViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962968.392420
+e316962968.562993
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/InstructionsViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.m316962968#316962968#0(0"0(0#0#80"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.m8599998944#2021"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/InstructionsViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/InstructionsViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/MetricPickerController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962967.904286
+e316962968.112973
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/MetricPickerController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.m316962967#316962968#0(0"0(0#0#76"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.m8650340704#2013"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/MetricPickerController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/MetricPickerController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipe.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962966.300550
+e316962966.987420
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipe.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.m316962966#316962966#0(0"0(0#0#60"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.m8643992288#1981"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/Recipe.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipe.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeAddViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316968644.058017
+e316968644.488417
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeAddViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.m316968644#316968644#0(0"0(0#0#77"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.m8651854336#2015"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeAddViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeAddViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeDetailViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316969343.368995
+e316969343.994132
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeDetailViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.m316969343#316969343#0(0"0(0#0#80"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.m8604556992#2021"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeDetailViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeDetailViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeListTableViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316968174.670170
+e316968175.101386
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeListTableViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.m316968174#316968175#0(0"0(0#0#83"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.m8643004800#2027"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeListTableViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeListTableViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipePhotoViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962968.245303
+e316962968.392273
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipePhotoViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.m316962968#316962968#0(0"0(0#0#79"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.m8605874560#2019"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipePhotoViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipePhotoViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeTableViewCell.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962967.046823
+e316962967.533466
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeTableViewCell.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.m316962967#316962967#0(0"0(0#0#73"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.m8643668928#2007"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipeTableViewCell.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipeTableViewCell.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962966.256348
+e316962967.046669
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.m316962966#316962967#0(0"0(0#0#72"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.m8644907264#2005"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/RecipesAppDelegate.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureCell.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962967.725429
+e316962967.863638
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureCell.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.m316962967#316962967#0(0"0(0#0#69"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.m8640756288#1999"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureCell.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureCell.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureConverterViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962967.691554
+e316962967.903893
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureConverterViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.m316962967#316962967#0(0"0(0#0#88"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.m8643172128#2037"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TemperatureConverterViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TemperatureConverterViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TypeSelectionViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962968.452494
+e316962968.647664
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TypeSelectionViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.m316962968#316962968#0(0"0(0#0#81"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.m8650439584#2023"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/TypeSelectionViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/TypeSelectionViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/UnitConverterTableViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962967.529851
+e316962967.691290
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/UnitConverterTableViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.m316962967#316962967#0(0"0(0#0#86"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.m8645887712#2033"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/UnitConverterTableViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/UnitConverterTableViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/WeightConverterViewController.o /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962967.533638
+e316962967.725286
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/WeightConverterViewController.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.m316962967#316962967#0(0"0(0#0#83"/Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.m8645088448#2027"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Classes/WeightConverterViewController.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/WeightConverterViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o /Users/1111/Downloads/iPhoneCoreDataRecipes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962966.165134
+e316962966.300416
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/main.m316962966#316962966#0(0"0(0#0#50"/Users/1111/Downloads/iPhoneCoreDataRecipes/main.m8645681152#1969"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/main.m -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/DetailHeaderView.xib
+s316967896.725017
+e316967897.672492
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/DetailHeaderView.xib
+lSLF07#2@40"CompileXIB en.lproj/DetailHeaderView.xib316967896#316967897#0(0"0(0#0#73"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/DetailHeaderView.xib8650945024#615"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/DetailHeaderView.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/DetailHeaderView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/EditingTableViewCell.xib
+s316962963.607392
+e316962964.344998
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/EditingTableViewCell.xib
+lSLF07#2@44"CompileXIB en.lproj/EditingTableViewCell.xib316962963#316962964#0(0"0(0#0#77"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/EditingTableViewCell.xib8645748032#623"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/EditingTableViewCell.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/EditingTableViewCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/InstructionsView.xib
+s316962962.196665
+e316962963.018896
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/InstructionsView.xib
+lSLF07#2@40"CompileXIB en.lproj/InstructionsView.xib316962962#316962963#0(0"0(0#0#73"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/InstructionsView.xib8650477600#615"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/InstructionsView.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/InstructionsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/MainWindow.xib
+s316968299.939884
+e316968301.919733
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/MainWindow.xib
+lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib316968299#316968301#0(0"0(0#0#67"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/MainWindow.xib8604395936#603"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/MainWindow.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/RecipeAddView.xib
+s316962962.181216
+e316962962.891251
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/RecipeAddView.xib
+lSLF07#2@37"CompileXIB en.lproj/RecipeAddView.xib316962962#316962962#0(0"0(0#0#70"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/RecipeAddView.xib8650940000#609"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/RecipeAddView.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/RecipeAddView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureCell.xib
+s316962963.884929
+e316962964.598517
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureCell.xib
+lSLF07#2@39"CompileXIB en.lproj/TemperatureCell.xib316962963#316962964#0(0"0(0#0#72"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureCell.xib8599341568#613"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/TemperatureCell.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureConverter.xib
+s316962962.891535
+e316962963.607256
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureConverter.xib
+lSLF07#2@44"CompileXIB en.lproj/TemperatureConverter.xib316962962#316962963#0(0"0(0#0#77"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureConverter.xib8645936832#623"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/TemperatureConverter.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/TemperatureConverter.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/WeightConverter.xib
+s316962963.019013
+e316962963.884800
+r1
+xCompileXIB
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/WeightConverter.xib
+lSLF07#2@39"CompileXIB en.lproj/WeightConverter.xib316962963#316962963#0(0"0(0#0#72"/Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/WeightConverter.xib8645726112#613"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/en.lproj/WeightConverter.nib /Users/1111/Downloads/iPhoneCoreDataRecipes/en.lproj/WeightConverter.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/TemperatureData.plist RecipeData/TemperatureData.plist
+s316962960.753163
+e316962961.021667
+r1
+xCopyPlistFile
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/TemperatureData.plist
+xRecipeData/TemperatureData.plist
+lSLF07#2@37"Copy RecipeData/TemperatureData.plist316962960#316962961#0(0"0(0#0#76"/Users/1111/Downloads/iPhoneCoreDataRecipes/RecipeData/TemperatureData.plist8645951840#417"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 RecipeData/TemperatureData.plist --outdir /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/Icon-72.png images/Icon-72.png
+s316962964.349074
+e316962964.369431
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/Icon-72.png
+ximages/Icon-72.png
+lSLF07#2@23"Copy images/Icon-72.png316962964#316962964#0(0"0(0#0#62"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-72.png8644732480#491"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-72.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/Icon-Small-50.png images/Icon-Small-50.png
+s316962964.351158
+e316962964.370129
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/Icon-Small-50.png
+ximages/Icon-Small-50.png
+lSLF07#2@29"Copy images/Icon-Small-50.png316962964#316962964#0(0"0(0#0#68"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small-50.png8644520064#497"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small-50.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/Icon-Small.png images/Icon-Small.png
+s316962964.353327
+e316962964.373462
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/Icon-Small.png
+ximages/Icon-Small.png
+lSLF07#2@26"Copy images/Icon-Small.png316962964#316962964#0(0"0(0#0#65"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small.png8644170080#494"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/Icon-Small@2x.png images/Icon-Small@2x.png
+s316962964.355500
+e316962964.380151
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/Icon-Small@2x.png
+ximages/Icon-Small@2x.png
+lSLF07#2@29"Copy images/Icon-Small@2x.png316962964#316962964#0(0"0(0#0#68"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small@2x.png8643914848#497"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon-Small@2x.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/Icon.png images/Icon.png
+s316962964.357872
+e316962964.394257
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/Icon.png
+ximages/Icon.png
+lSLF07#2@20"Copy images/Icon.png316962964#316962964#0(0"0(0#0#59"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon.png8643725344#488"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/Icon@2x.png images/Icon@2x.png
+s316962964.359976
+e316962964.392347
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/Icon@2x.png
+ximages/Icon@2x.png
+lSLF07#2@23"Copy images/Icon@2x.png316962964#316962964#0(0"0(0#0#62"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon@2x.png8643555744#491"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/Icon@2x.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/Recipes.sqlite RecipeData/Recipes.sqlite
+s316968404.974942
+e316968405.062282
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/Recipes.sqlite
+xRecipeData/Recipes.sqlite
+lSLF07#2@30"Copy RecipeData/Recipes.sqlite316968404#316968405#0(0"0(0#0#69"/Users/1111/Downloads/iPhoneCoreDataRecipes/RecipeData/Recipes.sqlite8604006656#498"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/RecipeData/Recipes.sqlite /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/choosePhoto.png images/choosePhoto.png
+s316962964.345139
+e316962964.362370
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/choosePhoto.png
+ximages/choosePhoto.png
+lSLF07#2@27"Copy images/choosePhoto.png316962964#316962964#0(0"0(0#0#66"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/choosePhoto.png8645183424#495"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/choosePhoto.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/convert.png images/convert.png
+s316962964.346431
+e316962964.364934
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/convert.png
+ximages/convert.png
+lSLF07#2@23"Copy images/convert.png316962964#316962964#0(0"0(0#0#62"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/convert.png8644947680#491"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/convert.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/fork.png images/fork.png
+s316962964.347759
+e316962964.389555
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/fork.png
+ximages/fork.png
+lSLF07#2@20"Copy images/fork.png316962964#316962964#0(0"0(0#0#59"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/fork.png8644803968#488"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/fork.png /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/iTunesArtwork images/iTunesArtwork
+s316962964.362491
+e316962964.410874
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/iTunesArtwork
+ximages/iTunesArtwork
+lSLF07#2@25"Copy images/iTunesArtwork316962964#316962964#0(0"0(0#0#64"/Users/1111/Downloads/iPhoneCoreDataRecipes/images/iTunesArtwork8643347200#493"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/1111/Downloads/iPhoneCoreDataRecipes/images/iTunesArtwork /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CDataModelCompile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes.mom /Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes.xcdatamodel
+s316962966.163489
+e316962966.256197
+r1
+xDataModelCompile
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes.mom
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes.xcdatamodel
+lSLF07#2@71"Compile /Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes.xcdatamodel316962966#316962966#0(0"0(0#0#63"/Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes.xcdatamodel8645969696#399"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes.xcdatamodel /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes.mom0#
+
+CGenerateDSYMFile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app.dSYM /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+s316969344.160824
+e316969344.436248
+r1
+xGenerateDSYMFile
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app.dSYM
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Recipes.app.dSYM build/Debug-iphonesimulator/Recipes.app/Recipes316969344#316969344#0(0"0(0#0#91"/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes8645064832#398"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app.dSYM0#
+
+CLd /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes normal i386
+s316969343.994316
+e316969344.160678
+r1
+xLd
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+xnormal
+xi386
+lSLF07#2@96"Link /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes316969343#316969344#0(0"0(0#0#0"8604015040#945"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -filelist /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework CoreData -framework CoreGraphics -framework Foundation -framework UIKit -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Recipes0#
+
+CProcessInfoPlistFile /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Info.plist Info.plist
+s316962960.746315
+e316962960.751752
+r1
+xProcessInfoPlistFile
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist316962960#316962960#0(0"0(0#0#54"/Users/1111/Downloads/iPhoneCoreDataRecipes/Info.plist8648836832#486"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app/Info.plist0#
+
+CProcessPCH /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316962964.598688
+e316962966.163171
+r1
+xProcessPCH
+x/var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch316962964#316962966#0(0"0(0#0#62"/Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes_Prefix.pch8605751872#1856"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/include -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/1111/Downloads/iPhoneCoreDataRecipes/Recipes_Prefix.pch -o /var/folders/UT/UTh0O9B+F-WqSCph5zEfcU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bpqwlufqzgcxuldpcosnzdbwampp/Recipes_Prefix.pch.gch0#
+
+CTouch /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app
+s316969344.436367
+e316969344.452148
+r1
+xTouch
+x/Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app
+lSLF07#2@89"Touch /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app316969344#316969344#0(0"0(0#0#0"8641860448#288"    cd /Users/1111/Downloads/iPhoneCoreDataRecipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/1111/Downloads/iPhoneCoreDataRecipes/build/Debug-iphonesimulator/Recipes.app0#
+
